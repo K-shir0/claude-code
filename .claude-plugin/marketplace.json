@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "k-shir0-local",
+  "version": "1.0.0",
+  "description": "k-shir0のローカルプラグイン",
+  "owner": {
+    "name": "k-shir0",
+    "email": "k-shir0@example.com"
+  },
+  "plugins": [
+    {
+      "name": "worktree-zellij",
+      "description": "wtp worktreeとzellij連携コマンド",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
