@@ -73,7 +73,7 @@ zellij action new-tab --name "<tab-name>" --cwd <worktree-path>
 
 2. タブ内でClaude Codeを自動起動し、タスク内容を引数として渡す:
 ```bash
-zellij action write-chars "claude \"$ARGUMENTS\""
+zellij action write-chars "claude --permission-mode plan \"$ARGUMENTS\""
 zellij action write 10
 ```
 
